@@ -1,0 +1,290 @@
+@font-face {
+  font-family: 'scroll-o-script';
+  src: url('../font/scroll-o-script.eot?283512');
+  src: url('../font/scroll-o-script.eot?283512#iefix') format('embedded-opentype'),
+       url('../font/scroll-o-script.woff2?283512') format('woff2'),
+       url('../font/scroll-o-script.woff?283512') format('woff'),
+       url('../font/scroll-o-script.ttf?283512') format('truetype'),
+       url('../font/scroll-o-script.svg?283512#scroll-o-script') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'scroll-o-script';
+    src: url('../font/scroll-o-script.svg?283512#scroll-o-script') format('svg');
+  }
+}
+*/
+ 
+ [class^="rpg-"]:before, [class*=" rpg-"]:before {
+  font-family: "scroll-o-script";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.rpg-trap6:before { content: '\e800'; } /* '' */
+.rpg-trap7a:before { content: '\e801'; } /* '' */
+.rpg-magic5:before { content: '\e802'; } /* '' */
+.rpg-trap4b:before { content: '\e803'; } /* '' */
+.rpg-trap5:before { content: '\e804'; } /* '' */
+.rpg-furniture1:before { content: '\e806'; } /* '' */
+.rpg-trap7b:before { content: '\e807'; } /* '' */
+.rpg-trap8a:before { content: '\e808'; } /* '' */
+.rpg-trap8b:before { content: '\e809'; } /* '' */
+.rpg-magic1:before { content: '\e80a'; } /* '' */
+.rpg-magic2:before { content: '\e80b'; } /* '' */
+.rpg-magic3:before { content: '\e80c'; } /* '' */
+.rpg-magic4:before { content: '\e80d'; } /* '' */
+.rpg-trap4a:before { content: '\e80e'; } /* '' */
+.rpg-magic6:before { content: '\e80f'; } /* '' */
+.rpg-magic7:before { content: '\e810'; } /* '' */
+.rpg-magic8:before { content: '\e811'; } /* '' */
+.rpg-magic9:before { content: '\e812'; } /* '' */
+.rpg-magic10:before { content: '\e813'; } /* '' */
+.rpg-magic11:before { content: '\e814'; } /* '' */
+.rpg-magic12:before { content: '\e815'; } /* '' */
+.rpg-magic13:before { content: '\e816'; } /* '' */
+.rpg-magic14:before { content: '\e817'; } /* '' */
+.rpg-magic15:before { content: '\e818'; } /* '' */
+.rpg-troll1:before { content: '\e819'; } /* '' */
+.rpg-troll2:before { content: '\e81a'; } /* '' */
+.rpg-troll3:before { content: '\e81b'; } /* '' */
+.rpg-troll4:before { content: '\e81c'; } /* '' */
+.rpg-unliving1:before { content: '\e81d'; } /* '' */
+.rpg-unliving2:before { content: '\e81e'; } /* '' */
+.rpg-unliving3:before { content: '\e81f'; } /* '' */
+.rpg-unliving4:before { content: '\e820'; } /* '' */
+.rpg-unliving5:before { content: '\e821'; } /* '' */
+.rpg-unliving6:before { content: '\e822'; } /* '' */
+.rpg-unliving7:before { content: '\e823'; } /* '' */
+.rpg-unliving8:before { content: '\e824'; } /* '' */
+.rpg-furniture2:before { content: '\e825'; } /* '' */
+.rpg-trap1:before { content: '\e826'; } /* '' */
+.rpg-trap2:before { content: '\e827'; } /* '' */
+.rpg-trap3a:before { content: '\e828'; } /* '' */
+.rpg-trap3b:before { content: '\e829'; } /* '' */
+.rpg-charm1:before { content: '\e82a'; } /* '' */
+.rpg-charm2:before { content: '\e82b'; } /* '' */
+.rpg-charm3:before { content: '\e82c'; } /* '' */
+.rpg-charm4:before { content: '\e82d'; } /* '' */
+.rpg-charm5:before { content: '\e82e'; } /* '' */
+.rpg-charm6:before { content: '\e82f'; } /* '' */
+.rpg-charm7:before { content: '\e830'; } /* '' */
+.rpg-charm8:before { content: '\e831'; } /* '' */
+.rpg-charm9:before { content: '\e832'; } /* '' */
+.rpg-charm10:before { content: '\e833'; } /* '' */
+.rpg-charm11:before { content: '\e834'; } /* '' */
+.rpg-charm12:before { content: '\e835'; } /* '' */
+.rpg-charm13:before { content: '\e836'; } /* '' */
+.rpg-charf13:before { content: '\e837'; } /* '' */
+.rpg-charf1:before { content: '\e838'; } /* '' */
+.rpg-charf2:before { content: '\e839'; } /* '' */
+.rpg-charf3:before { content: '\e83a'; } /* '' */
+.rpg-charf4:before { content: '\e83b'; } /* '' */
+.rpg-charf5:before { content: '\e83c'; } /* '' */
+.rpg-charf6:before { content: '\e83d'; } /* '' */
+.rpg-charf7:before { content: '\e83e'; } /* '' */
+.rpg-charf8:before { content: '\e83f'; } /* '' */
+.rpg-charf9:before { content: '\e840'; } /* '' */
+.rpg-charf10:before { content: '\e841'; } /* '' */
+.rpg-charf11:before { content: '\e842'; } /* '' */
+.rpg-charf12:before { content: '\e843'; } /* '' */
+.rpg-charo1:before { content: '\e844'; } /* '' */
+.rpg-charo2:before { content: '\e845'; } /* '' */
+.rpg-charo3:before { content: '\e846'; } /* '' */
+.rpg-charo4:before { content: '\e847'; } /* '' */
+.rpg-charo5:before { content: '\e848'; } /* '' */
+.rpg-charo6:before { content: '\e849'; } /* '' */
+.rpg-charo7:before { content: '\e84a'; } /* '' */
+.rpg-fauna1:before { content: '\e84b'; } /* '' */
+.rpg-fauna2:before { content: '\e84c'; } /* '' */
+.rpg-fauna3:before { content: '\e84d'; } /* '' */
+.rpg-fauna5:before { content: '\e84e'; } /* '' */
+.rpg-fauna6:before { content: '\e84f'; } /* '' */
+.rpg-fauna7:before { content: '\e850'; } /* '' */
+.rpg-fauna8:before { content: '\e851'; } /* '' */
+.rpg-fauna9:before { content: '\e852'; } /* '' */
+.rpg-fauna10:before { content: '\e853'; } /* '' */
+.rpg-fauna11:before { content: '\e854'; } /* '' */
+.rpg-fauna12:before { content: '\e855'; } /* '' */
+.rpg-fauna13:before { content: '\e856'; } /* '' */
+.rpg-creature1:before { content: '\e857'; } /* '' */
+.rpg-creature2:before { content: '\e858'; } /* '' */
+.rpg-creature3:before { content: '\e859'; } /* '' */
+.rpg-creature4:before { content: '\e85a'; } /* '' */
+.rpg-creature5:before { content: '\e85b'; } /* '' */
+.rpg-creature6:before { content: '\e85c'; } /* '' */
+.rpg-creature7:before { content: '\e85d'; } /* '' */
+.rpg-creature8:before { content: '\e85e'; } /* '' */
+.rpg-building1:before { content: '\e85f'; } /* '' */
+.rpg-building2:before { content: '\e860'; } /* '' */
+.rpg-building3:before { content: '\e861'; } /* '' */
+.rpg-building4:before { content: '\e862'; } /* '' */
+.rpg-building5:before { content: '\e863'; } /* '' */
+.rpg-building6:before { content: '\e864'; } /* '' */
+.rpg-building7:before { content: '\e865'; } /* '' */
+.rpg-building8:before { content: '\e866'; } /* '' */
+.rpg-building9:before { content: '\e867'; } /* '' */
+.rpg-building10:before { content: '\e868'; } /* '' */
+.rpg-building11:before { content: '\e869'; } /* '' */
+.rpg-building12:before { content: '\e86a'; } /* '' */
+.rpg-furniture3:before { content: '\e86b'; } /* '' */
+.rpg-furniture4:before { content: '\e86c'; } /* '' */
+.rpg-furniture5:before { content: '\e86d'; } /* '' */
+.rpg-furniture6:before { content: '\e86e'; } /* '' */
+.rpg-furniture7:before { content: '\e86f'; } /* '' */
+.rpg-furniture8:before { content: '\e870'; } /* '' */
+.rpg-furniture9:before { content: '\e871'; } /* '' */
+.rpg-furniture10:before { content: '\e872'; } /* '' */
+.rpg-furniture11:before { content: '\e873'; } /* '' */
+.rpg-wall1:before { content: '\e874'; } /* '' */
+.rpg-wall2:before { content: '\e875'; } /* '' */
+.rpg-wall3:before { content: '\e876'; } /* '' */
+.rpg-wall4:before { content: '\e877'; } /* '' */
+.rpg-wall5:before { content: '\e878'; } /* '' */
+.rpg-wall6:before { content: '\e879'; } /* '' */
+.rpg-wall7:before { content: '\e87a'; } /* '' */
+.rpg-wall8:before { content: '\e87b'; } /* '' */
+.rpg-wall9:before { content: '\e87c'; } /* '' */
+.rpg-wall10:before { content: '\e87d'; } /* '' */
+.rpg-wall11:before { content: '\e87e'; } /* '' */
+.rpg-wall12:before { content: '\e87f'; } /* '' */
+.rpg-overworld1:before { content: '\e880'; } /* '' */
+.rpg-overworld2:before { content: '\e881'; } /* '' */
+.rpg-overworld3:before { content: '\e882'; } /* '' */
+.rpg-overworld4:before { content: '\e883'; } /* '' */
+.rpg-overworld5:before { content: '\e884'; } /* '' */
+.rpg-overworld6:before { content: '\e885'; } /* '' */
+.rpg-overworld7:before { content: '\e886'; } /* '' */
+.rpg-overworld8:before { content: '\e887'; } /* '' */
+.rpg-overworld9:before { content: '\e888'; } /* '' */
+.rpg-overworld10:before { content: '\e889'; } /* '' */
+.rpg-overworld11:before { content: '\e88a'; } /* '' */
+.rpg-overworld12:before { content: '\e88b'; } /* '' */
+.rpg-overworld13:before { content: '\e88c'; } /* '' */
+.rpg-exploration1:before { content: '\e88d'; } /* '' */
+.rpg-exploration2:before { content: '\e88e'; } /* '' */
+.rpg-exploration3:before { content: '\e88f'; } /* '' */
+.rpg-exploration4:before { content: '\e890'; } /* '' */
+.rpg-exploration5:before { content: '\e891'; } /* '' */
+.rpg-exploration6:before { content: '\e892'; } /* '' */
+.rpg-exploration7:before { content: '\e893'; } /* '' */
+.rpg-exploration8:before { content: '\e894'; } /* '' */
+.rpg-exploration9:before { content: '\e895'; } /* '' */
+.rpg-exploration10:before { content: '\e896'; } /* '' */
+.rpg-exploration11:before { content: '\e897'; } /* '' */
+.rpg-exploration12:before { content: '\e898'; } /* '' */
+.rpg-exploration13:before { content: '\e899'; } /* '' */
+.rpg-exploration14:before { content: '\e89a'; } /* '' */
+.rpg-exploration15:before { content: '\e89b'; } /* '' */
+.rpg-exploration16:before { content: '\e89c'; } /* '' */
+.rpg-exploration17:before { content: '\e89d'; } /* '' */
+.rpg-exploration18:before { content: '\e89e'; } /* '' */
+.rpg-exploration19:before { content: '\e89f'; } /* '' */
+.rpg-exploration20:before { content: '\e8a0'; } /* '' */
+.rpg-exploration21:before { content: '\e8a1'; } /* '' */
+.rpg-food1:before { content: '\e8a2'; } /* '' */
+.rpg-food2:before { content: '\e8a3'; } /* '' */
+.rpg-food3:before { content: '\e8a4'; } /* '' */
+.rpg-food4:before { content: '\e8a5'; } /* '' */
+.rpg-food5:before { content: '\e8a6'; } /* '' */
+.rpg-food6:before { content: '\e8a7'; } /* '' */
+.rpg-food7:before { content: '\e8a8'; } /* '' */
+.rpg-food8:before { content: '\e8a9'; } /* '' */
+.rpg-food9:before { content: '\e8aa'; } /* '' */
+.rpg-food10:before { content: '\e8ab'; } /* '' */
+.rpg-food11:before { content: '\e8ac'; } /* '' */
+.rpg-food12:before { content: '\e8ad'; } /* '' */
+.rpg-food13:before { content: '\e8ae'; } /* '' */
+.rpg-food14:before { content: '\e8af'; } /* '' */
+.rpg-food15:before { content: '\e8b0'; } /* '' */
+.rpg-food16:before { content: '\e8b1'; } /* '' */
+.rpg-food17:before { content: '\e8b2'; } /* '' */
+.rpg-food18:before { content: '\e8b3'; } /* '' */
+.rpg-food19:before { content: '\e8b4'; } /* '' */
+.rpg-food20:before { content: '\e8b5'; } /* '' */
+.rpg-food21:before { content: '\e8b6'; } /* '' */
+.rpg-food22:before { content: '\e8b7'; } /* '' */
+.rpg-outfit1:before { content: '\e8b8'; } /* '' */
+.rpg-outfit2:before { content: '\e8b9'; } /* '' */
+.rpg-outfit3:before { content: '\e8ba'; } /* '' */
+.rpg-outfit4:before { content: '\e8bb'; } /* '' */
+.rpg-outfit5:before { content: '\e8bc'; } /* '' */
+.rpg-outfit6:before { content: '\e8bd'; } /* '' */
+.rpg-outfit7:before { content: '\e8be'; } /* '' */
+.rpg-outfit8:before { content: '\e8bf'; } /* '' */
+.rpg-outfit9:before { content: '\e8c0'; } /* '' */
+.rpg-outfit10:before { content: '\e8c1'; } /* '' */
+.rpg-outfit11:before { content: '\e8c2'; } /* '' */
+.rpg-outfit12:before { content: '\e8c3'; } /* '' */
+.rpg-outfit13:before { content: '\e8c4'; } /* '' */
+.rpg-outfit14:before { content: '\e8c5'; } /* '' */
+.rpg-outfit15:before { content: '\e8c6'; } /* '' */
+.rpg-outfit16:before { content: '\e8c7'; } /* '' */
+.rpg-outfit17:before { content: '\e8c8'; } /* '' */
+.rpg-outfit18:before { content: '\e8c9'; } /* '' */
+.rpg-outfit19:before { content: '\e8ca'; } /* '' */
+.rpg-outfit20:before { content: '\e8cb'; } /* '' */
+.rpg-outfit21:before { content: '\e8cc'; } /* '' */
+.rpg-outfit22:before { content: '\e8cd'; } /* '' */
+.rpg-outfit23:before { content: '\e8ce'; } /* '' */
+.rpg-outfit24:before { content: '\e8cf'; } /* '' */
+.rpg-outfit25:before { content: '\e8d0'; } /* '' */
+.rpg-outfit26:before { content: '\e8d1'; } /* '' */
+.rpg-outfit27:before { content: '\e8d2'; } /* '' */
+.rpg-symbol1:before { content: '\e8d3'; } /* '' */
+.rpg-symbol2:before { content: '\e8d4'; } /* '' */
+.rpg-symbol3:before { content: '\e8d5'; } /* '' */
+.rpg-symbol4:before { content: '\e8d6'; } /* '' */
+.rpg-symbol5:before { content: '\e8d7'; } /* '' */
+.rpg-symbol6:before { content: '\e8d8'; } /* '' */
+.rpg-symbol7:before { content: '\e8d9'; } /* '' */
+.rpg-symbol8:before { content: '\e8da'; } /* '' */
+.rpg-symbol9:before { content: '\e8db'; } /* '' */
+.rpg-symbol10:before { content: '\e8dc'; } /* '' */
+.rpg-symbol11:before { content: '\e8dd'; } /* '' */
+.rpg-symbol12:before { content: '\e8de'; } /* '' */
+.rpg-symbol13:before { content: '\e8df'; } /* '' */
+.rpg-symbol14:before { content: '\e8e0'; } /* '' */
+.rpg-symbol15:before { content: '\e8e1'; } /* '' */
+.rpg-symbol16:before { content: '\e8e2'; } /* '' */
+.rpg-symbol17:before { content: '\e8e3'; } /* '' */
+.rpg-symbol18:before { content: '\e8e4'; } /* '' */
+.rpg-symbol19:before { content: '\e8e5'; } /* '' */
+.rpg-symbol20:before { content: '\e8e6'; } /* '' */
+.rpg-symbol21:before { content: '\e8e7'; } /* '' */
+.rpg-symbol22:before { content: '\e8e8'; } /* '' */
+.rpg-symbol23:before { content: '\e8e9'; } /* '' */
